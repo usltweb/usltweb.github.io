@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Sign Language Translator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js"></script>
+        
+       <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/favicon.ico" />
+    </head>
+  <body>
+    <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <a href="index.html"
+        ><img src="android-chrome-192x192.png" alt="logo" class="logo" />
+      </a>
+      <b>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        
+        
+      </b>
+      <div class="mail">
+        <a href="mailto:bhavukweb30@gmail.com">
+          <img class="mailbutton" src="mail.png" alt="mail me" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Welcome to Universal Sign Language Translator (USLT)!</h1>
+      <br />
+      <p class="introduction col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        In this website you can translate sign language to english (text and
+        sound) using your device's webcam. <br><p>Instructions:</p><br>1. The background should be clear.<br>2. Please show your hand clearly and close to the webcam and avoid showing your face or other objects.<br>3. Click on the start button before showing a new letter, repeat this process for every new letter shown.
+      </p>
+      <br />
+      <u><h2>Translator</h2></u>
+      <br />
+      
+      <button id="start1" onclick="start()" class="btn btn-warning col-lg-2 col-md-4 col-sm-12 col-xs-12">Start</button>
+      <div id="results" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+      
+      
+    </main>
+    <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="footersection">
+        <b>
+          This website is the result of the hardwork of two school students.
+          Kindly do not copy it.
+        </b>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

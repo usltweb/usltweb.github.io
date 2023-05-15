@@ -1,0 +1,207 @@
+a {
+    text-decoration: none;
+  }
+  li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+  }
+  main {
+    background-color: antiquewhite;
+    background-size: cover;
+    margin: 0;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    height: 120vh;
+    width: auto;
+
+  }
+  nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: larger;
+    padding: 20px;
+    text-align: center;
+  }
+  header {
+    background-image: url('1.jpg');
+    height: 10vh;
+    padding-top: 30px;
+    padding-right: 5px;
+    padding-left: none;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+  }
+  footer {
+    background-image: url('1.jpg');
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    height: 7vh;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .footersection {
+    text-align: center;
+    letter-spacing: 0.25px;
+  }
+  nav li a:hover {
+    color: lightpink;
+  }
+ .introduction {
+    text-align: center;
+    color: crimson;
+    font-family: cursive;
+}  
+.mailbutton{
+    height: 30px;
+    position: absolute;
+    right: 35px;
+    top: 27px;
+}
+.aboutcontent{
+    font-size: larger;
+    font-family: cursive;
+    color: navy;
+}
+.mailbutton:hover{
+    content: url("mail-hover.png");
+}
+.logo{
+    height: 40px;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+.contactmain {
+    height: 150vh;
+}
+#e1 #e2{
+    margin-left: 96.4px;
+}
+.contactcontent{
+    color: navy;
+    font-family: cursive;
+    font-size: larger;
+}
+
+  
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent;
+  padding: 10px;
+}
+
+.menu-icon {
+  cursor: pointer;
+  color: white;
+  margin-top: -8px;
+  border: 0;
+  padding: 0;
+}
+
+.menu-icon i {
+  font-size: 20px;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color:black;
+  position: absolute;
+  top: 60px;
+  right: -100%;
+  width: 100%;
+  height: calc(100vh - 60px);
+  transition: all 0.3s ease;
+  z-index: 9;
+}
+
+.menu.active {
+  right: 0;
+}
+
+.menu li {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  
+  nav{
+    background-color:transparent;
+    
+  }
+  
+  nav {
+    justify-content:center;
+    padding: 0 50px;
+  }
+  
+  .menu {
+    position: static;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  #canvas {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+
+

@@ -1,0 +1,5 @@
+1. place the translator on the main page
+2. make the website responsive
+3. add the required js files
+4. add iot as per ma'am's instructions
+5. Make the nav bar work
