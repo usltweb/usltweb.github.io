@@ -3,7 +3,7 @@ let objects = [];
 let result;
 
 function setup() {
-  canvas = createCanvas(500, 500);
+  canvas = createCanvas(350, 350);
   canvas.center();
   canvas.id("mycan");
  
@@ -18,7 +18,7 @@ function start() {
 }
 
 function draw() {
-  image(video, 0, 0, 500, 500);
+  image(video, 0, 0, 350, 350);
   if (status1 == "true" && objects.length > 0) {
     const box = objects[0].boundingBox;
     if (box) {
